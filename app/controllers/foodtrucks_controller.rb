@@ -12,6 +12,7 @@ class FoodtrucksController < ApplicationController
   def show
   end
 
+
   # GET /foodtrucks/new
   def new
     @foodtruck = Foodtruck.new

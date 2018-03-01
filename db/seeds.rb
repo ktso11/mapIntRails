@@ -5,3 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+  foodtruck = Foodtruck.new
+  foodtruck.name = "Katie"
+  foodtruck.latitude = "37.78"
+  foodtruck.longitude = "-122.44"
+  # foodtruck.foodtype =
+  # foodtruck.description =
+  # foodtruck.address =
+  # foodtruck.logo =
+    foodtruck.save
+
+  foodtruck = Foodtruck.new
+  foodtruck.name = "Kingsley"
+  foodtruck.latitude = "36.804363"
+  foodtruck.longitude = "-122.271111"
+  # foodtruck.foodtype =
+  # foodtruck.description =
+  # foodtruck.address =
+  # foodtruck.logo =
+
+
+  foodtruck.save
+
